@@ -16,8 +16,7 @@ def is_registered(name):
     return True
 
 
-def find_my_domain():
-    name = random_name()
+def find_my_domain(name=random_name()):
     return name, is_registered(name)
 
 
