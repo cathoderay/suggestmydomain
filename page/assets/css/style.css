@@ -1,0 +1,21 @@
+html {
+    font-family: arial;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+h1 {
+    color: #ccc;
+    letter-spacing: 1px;
+}
+
+
+#submit {
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4492ba;
+    font-size: 20px;
+    background-color: #52aecc;
+    padding: 10px 15px 10px 15px;
+}
