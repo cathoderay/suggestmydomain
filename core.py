@@ -4,7 +4,8 @@ import whois
 
 
 def random_name(n=5):
-    return ''.join([random.choice(string.lowercase + "0123456789") for x in xrange(n)]) + ".com"
+    return ''.join([random.choice(string.lowercase + "0123456789") 
+                    for x in xrange(n)]) + ".com"
 
 
 def is_registered(name):
