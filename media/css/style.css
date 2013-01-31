@@ -1,12 +1,11 @@
 html {
     font-family: arial;
-    text-align: center;
     margin: 100px 0 0 0;
     color: #aaa;
     letter-spacing: 1px;
     font-size: 30px;
+    text-align: center
 }
-
 
 #submit {
     color: #fff;
