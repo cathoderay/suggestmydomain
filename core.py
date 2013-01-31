@@ -21,4 +21,8 @@ def find_my_domain(name=random_name()):
 
 
 if __name__ == '__main__':
-    print find_my_domain()
+    import sys
+    if len(sys.argv) > 1:
+        print find_my_domain(sys.argv[1])
+    else:
+        print find_my_domain()
