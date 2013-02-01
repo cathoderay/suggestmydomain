@@ -16,20 +16,21 @@ def is_registered(name):
     return True
 
 
-def find_my_domain(name=random_name()):
+def find_domain(name=None):
+    name = name or random_name()
     return name, is_registered(name)
 
 
 def find_available():
     registered = True 
     while registered:
-        name, registered = find_my_domain()
+        name, registered = find_domain()
     return name
 
 
 if __name__ == '__main__':
     import sys
     if len(sys.argv) > 1:
-        print find_my_domain(sys.argv[1])
+        print find_domain(sys.argv[1])
     else:
-        print find_my_domain()
+        print find_domain()
