@@ -1,13 +1,14 @@
 html {
     font-family: arial;
-    margin: 100px 0 0 0;
+    margin: 10% 0 0 0;
     color: #aaa;
     letter-spacing: 1px;
     font-size: 30px;
-    text-align: center
+    text-align: center;
 }
 
-#submit {
+#logo {
+    text-decoration: none;
     color: #fff;
     font-size: 30px;
     border-style: solid;
@@ -15,4 +16,14 @@ html {
     border-color: #4492ba;
     background-color: #52aecc;
     padding: 10px 15px 10px 15px;
+}
+
+.domain {
+    font-weight: bold;
+    color: #555;
+}
+
+.available {
+    color: #5a5;
+    font-weight: bold;
 }
