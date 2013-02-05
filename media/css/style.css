@@ -21,7 +21,13 @@ html {
     padding: 10px 15px 10px 15px;
 }
 
-.social li {
+ul.social {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.social li {
     display: inline;
 }
 
