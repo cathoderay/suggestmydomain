@@ -1,22 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-    <title>suggestmydomain.com</title>
-    <link rel="stylesheet" href="/media/css/style.css" type="text/css" media="screen" charset="utf-8"0>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/media/js/behavior.js" type="text/javascript" charset="utf-8"></script>
+        <title>suggestmydomain.com</title>
+        <!-- own css -->
+        <link rel="stylesheet" href="/media/css/style.css" type="text/css" media="screen" charset="utf-8"0>
+
+        <!-- jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- own js -->
+        <script src="/media/js/behavior.js" type="text/javascript" charset="utf-8"></script>
     </head>
 
     <body>
-        <!-- content -->
-        <a href="/" id="logo">suggestmydomain</a>.com<sup><span class="mini"> beta</span></sup>
-        <p><span class="domain">{{ name }}</span> is <span class="available">available</span></p>
+        <div id="content">
+            <p><a href="/" class="logo">suggestmydomain</a>.com<span class="beta"> beta</span>
+            <p><span class="domain">{{ name }}</span> is <span class="available">available</span></p>
+        </div>
 
-        <!-- facebook -->
-        <div id="fb-root"></div>
-        <div class="fb-like" data-href="http://www.facebook.com/suggestmydomain" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
+        <ul class="social">
+            <li>
+                <div id="fb-root"></div>
+                <div class="fb-like" data-href="http://www.facebook.com/suggestmydomain" 
+                    data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" 
+                    data-font="arial">
+                </div>
+            </li>
 
-        <!-- twitter -->
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.suggestmydomain.com" data-text="Get a domain name suggestion easily -&gt;" data-via="c4th0d3r4y">Tweet</a>
-
+            <li>
+                <sub>
+                <a href="https://twitter.com/share" class="twitter-share-button" 
+                    data-url="http://www.suggestmydomain.com" data-text="Get a domain name suggestion easily -&gt;" 
+                    data-via="c4th0d3r4y">Tweet
+                </a>
+                </sub>
+            </li>
+        </ul>
+    
     </body>
 </html>

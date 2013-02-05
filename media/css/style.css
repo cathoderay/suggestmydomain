@@ -1,13 +1,16 @@
 html {
     font-family: arial;
-    margin: 10% 0 0 0;
     color: #aaa;
     letter-spacing: 1px;
     font-size: 30px;
     text-align: center;
 }
 
-#logo {
+#content {
+    margin: 10% 0 0 0;
+}
+
+.logo {
     text-decoration: none;
     color: #fff;
     font-size: 30px;
@@ -16,6 +19,10 @@ html {
     border-color: #4492ba;
     background-color: #52aecc;
     padding: 10px 15px 10px 15px;
+}
+
+.social li {
+    display: inline;
 }
 
 .domain {
@@ -28,6 +35,7 @@ html {
     font-weight: bold;
 }
 
-.mini {
+.beta {
     font-size: 10px;
+    vertical-align: super;
 }
