@@ -8,18 +8,20 @@ html {
 
 #content {
     margin: 10% 0 0 0;
-    font-size: 50px;
 }
 
 .logo {
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
     border-style: solid;
     border-width: 5px;
     border-color: #4492ba;
     background-color: #52aecc;
     padding: 10px 15px 10px 15px;
+}
+
+.big {
+    font-size: 50px;
 }
 
 ul.social {
@@ -46,3 +48,4 @@ ul.social li {
     font-size: 10px;
     vertical-align: super;
 }
+
